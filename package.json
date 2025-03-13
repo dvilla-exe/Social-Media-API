@@ -1,0 +1,26 @@
+{
+  "name": "social-media-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dvilla-exe/Social-Media-API#readme",
+  "bugs": {
+    "url": "https://github.com/dvilla-exe/Social-Media-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvilla-exe/Social-Media-API.git"
+  },
+  "license": "ISC",
+  "author": "dvilla-exe",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "validator": "^13.12.0"
+  }
+}
