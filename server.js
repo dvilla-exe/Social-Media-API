@@ -5,10 +5,7 @@ const thoughtRoutes = require('./routes/thoughtRoutes');
 const reactionRoutes = require('./routes/reactionRoutes');
 require('./config/connection');
 
-mongoose.connect('mongodb://localhost/social_network_db', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+mongoose.connect('mongodb://localhost/social_network_db')
     .then(() => console.log('MongoDB connected'))
     .catch((err) => console.error('MongoDB connection error:', err));
 
